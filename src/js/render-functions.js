@@ -54,9 +54,9 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  loader.classList.remove('active');
+  loader.classList.add('active');
 }
 
 export function hideLoader() {
-  loader.classList.add('active');
+  loader.classList.remove('active');
 }
