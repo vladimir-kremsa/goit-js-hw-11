@@ -47,6 +47,7 @@
 }
 
 .loader {
+  display: none;
   width: 48px;
   height: 48px;
   border: 5px solid #ccc;
@@ -54,6 +55,10 @@
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 20px auto;
+}
+
+.loader.active {
+  display: block;
 }
 
 @keyframes spin {
